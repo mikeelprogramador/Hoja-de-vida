@@ -1,0 +1,156 @@
+.Escudo{
+    width: 30%;
+     
+}
+.col-lg{
+    text-align: center;
+}
+#boton{
+    width: 60%;
+    position: relative;
+    left: 16%;
+}
+.p{
+    font-size: 12px;
+    position: relative;
+    top: 10px; 
+}
+.subcontainer{
+    border: 8px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 10px;
+    margin-top: 3%;
+    
+}
+.number{
+    background-color: black;
+    border-radius: 50%;
+    color:white;
+    width: 2%; 
+    text-align: center;
+}
+.text
+{
+    background-color: black;
+    border-radius: 15px;
+    color:white;
+    width: auto; 
+    text-align: center;
+    position: relative;
+    left: 1%;
+    padding: 0px 10px;
+    
+}
+.etiqueta{
+    display: flex;
+    margin-top: 2%;
+}
+.subcontainer-2{
+    margin-top: 2%;
+    
+}
+.subcontainer-3{
+    margin-top: 2%;
+}
+.subcontainer-4{
+    margin-top: 2%;
+}
+.subcontainer-5{
+    margin-top: 2%;
+}
+.subcontainer-6{
+    margin-top: 2%;
+
+}.subcontainer-7{
+    margin-top: 2%;
+}
+/* 
+Enunciados de la experiencia laboral
+*/
+#subtitle{
+    border: 1px solid black;
+    text-align: center;
+    border-top: none;
+}
+#title{
+    border: 1px solid black; 
+    text-align: center;
+}
+/*
+Columnas de la experiencia laboral Fila uno
+*/
+#excol1{
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+}
+
+#excol2{
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+}
+
+#excol3{
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+}
+
+#excol4{
+    border: 1px solid black;
+    border-top: none;
+}
+/*
+Ojo son con las filas filas #2
+*/
+#excol01{
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+    padding: 5px;
+}
+#excol02{
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+}
+#excol03{
+    border: 1px solid black;
+    border-top: none;
+    padding: 5px;
+}
+#dacol1{
+    border: 1px solid black;
+    border-right: none;
+
+}
+#dacol2{
+    border: 1px solid black;
+    border-right: none;
+
+}
+#dacol3{
+    border: 1px solid black;
+
+}
+#pais{
+    border-radius: 15px;
+    margin-right: 10px;
+    width: 30%;
+
+}
+#mover{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+#ajustes{
+
+    border: none; 
+    border-bottom: 1px solid black;
+    margin-right: 20px;
+    margin-left: 10px;
+    width: 30%;
+
+}

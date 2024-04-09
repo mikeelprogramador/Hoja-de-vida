@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Portada de hoja de vida-->
+    <div class="container">
+        <div class="subcontainer">
+            <div class="row">
+                <div class="col-lg">
+                    <img class="Escudo" src="img/Colombia.jpg" alt="No se pudo encontra la imagen erro 402" ></div>
+                <div class="col-lg">
+                    <h3>FORMATO ÚNICO</h3>
+                    <h1>HOJA DE VIDA</h1>
+                    <h4>Persona Natural</h4>
+                    <p>(Leyes 190 de 1995, 489 y 443 de 1998)</p>
+                </div>
+                <div class="col-lg">
+                    <p class="p">ENTIDAD RECEPTORA</p>
+                    <input id="boton" type="text">
+                </div>
+            </div>
+        </div>
+
+        <!-- Etiqueta -->
+        <div class="etiqueta">
+            <div class="number">1</div>
+            <div class="text">DATOS PERSONALES</div>
+        </div>
+
+        <!-- Datos personales -->
+        <div class="subcontainer-2">
+            <!-- Fila #1 -->
+            <div class="row">
+                <div id="dacol1" class="col-md"><p>APELLIDO</p></div>
+                <div id="dacol2" class="col-md"><p>SEGUNDO APELLIDO (O DE CASADA)</p></div>
+                <div id="dacol3" class="col-md"><p>NOMBRES</p></div>
+            </div>
+            <!-- Fila #2 -->
+            <div class="row">
+                <div id="excol01" class="col-md-6">DOCUMENTO<br>
+                    <input id="mover" type="checkbox">C.C 
+                    <input id="mover" type="checkbox">C.E 
+                    <input id="mover" type="checkbox">PAS 
+                    <input id="pais" type="text" placeholder="Ingresa Documento">
+                </div>
+
+                <div id="excol02" class="col-md-2">SEXO<br>
+                    <input id="mover" type="checkbox">M 
+                    <input id="mover" type="checkbox">F
+                </div>
+
+                <div id="excol03" class="col-md-4">NACIONALIDAD<br>
+                    <input id="mover" type="checkbox">COLOMBIA 
+                    <input id="mover" type="checkbox">EXTRANGERO 
+                    <input id="pais" type="text" placeholder="Ingres el país">
+                </div>
+
+            </div>
+            <!-- Fila #3 -->
+            <div class="row">
+                <div id="excol03" class="col-md">LIBRETA MILITAR<br>
+                    <input id="mover" type="checkbox">PRIMERA CLASE 
+                    <input id="mover" type="checkbox">SEGUNDA CLASE 
+                    <input id="ajustes" type="text" placeholder="Numero">
+                    <input id="ajustes" type="text" placeholder="D.M"></div>
+            </div>
+            <!-- Fila #4 -->
+            <div class="row">
+                <div id="excol01" class="col-md">FECHA NACIMIENTO<br>
+                    <input  type="date"><br>
+                    PAÍS
+                    <input id="ajustes" type="text">
+                    DEPO
+                    <input id="ajustes" type="text"><br>
+                    MUNICIPIO 
+                    <input id="ajustes" type="text">
+                </div>
+
+                <div id="excol03" class="col-md">DIRECCION DE CORRESPONDENCIA</div>
+            </div>
+        </div>
+
+         <!-- Etiqueta -->
+        <div class="etiqueta">
+            <div class="number">2</div>
+            <div class="text">FORMACIÓN ACADÉMICA</div>
+        </div>
+
+        <!-- Educacion básica -->
+        <div class="subcontainer-3">
+            <!-- Fila #1 -->
+            <div class="row"style="border:1px solid black">
+                <div class="col-md">Educacion</div>
+            </div>
+            <!-- Fila #2 -->
+            <div class="row"style="border:1px solid black">
+                <div class="col-md">Educaicon superior</div>
+            </div>
+            <!-- Fila #3 -->
+            <div class="row"style="border:1px solid black">
+                <div class="col-md">Idioma</div>
+            </div>
+
+        </div>
+        
+        <!-- Etiqueta -->
+        <div class="etiqueta">
+            <div class="number">3</div>
+            <div class="text">EXPERIENCIA LABORAL</div>
+        </div>
+
+        <!-- Experiencia laboral -->
+        <div class="subcontainer-4">
+            <!-- Fila #1 -->
+            <div class="row">
+                <div id="title" class="col-md">
+                    <p>RELACIONE SU EXPERIENCIA LABORAL O DE PRESTACIÓN  DE SERVICIOS EN  ESTRICTO ORDEN  CRONOLÓGICO COMENZANDO POR EL ACTUAL</p>
+                </div>
+            </div>
+            <!-- Fila #2 -->
+            <div class="row">
+                <div id="subtitle" class="col-md">EMPLEO ACTUAL O CONTRATO VIGENTE</div>
+            </div>
+            <!-- Fila #3 -->
+            <div class="row">
+                <div id="excol1" class="col-md-6">EMPRESA O ENTIDAD</div>
+                <div id="excol2" class="col-md-1">PÚBLICA</div>
+                <div id="excol3" class="col-md-1">PRIVADA</div>
+                <div id="excol4" class="col-md-4">PAÍS</div>
+            </div>
+            <!-- Fila #4 -->
+            <div class="row">
+                <div id="excol01" class="col-md">DEPARTAMENTO</div>
+                <div id="excol02" class="col-md">MUNICIPIO</div>
+                <div id="excol03" class="col-md">CORREO ELECTRONICO ENTIDAD</div>
+            </div>
+            <!-- Fila #5 -->
+            <div class="row">
+                <div id="excol01" class="col-md">TELÉFONOS</div>
+                <div id="excol02" class="col-md">FECHA INGRESO</div>
+                <div id="excol03" class="col-md">FECHA DE RETIRO</div>
+            </div>
+            <!-- Fila #6 -->
+            <div class="row">
+                <div id="excol01" class="col-md">CARGO O CONTRATO ACTUAL</div>
+                <div id="excol02" class="col-md">DEPENDENCIA</div>
+                <div id="excol03" class="col-md">DIRECCIÓN</div>
+            </div>
+            <!-- Fila #7 -->
+            <div class="row">
+                <div id="subtitle" class="col-md">EMPLEO O CONTRATO ANTERIOR</div>
+            </div>
+            <!-- Fila #8 -->
+            <div class="row">
+                <div id="excol1" class="col-md-6">EMPRESA O ENTIDAD</div>
+                <div id="excol2" class="col-md-1">PÚBLICA</div>
+                <div id="excol3" class="col-md-1">PRIVADA</div>
+                <div id="excol4" class="col-md-4">PAÍS</div>
+            </div>
+            <!-- Fila #9 -->
+            <div class="row">
+                <div id="excol01" class="col-md">DEPARTAMENTO</div>
+                <div id="excol02" class="col-md">MUNICIPIO</div>
+                <div id="excol03" class="col-md">CORREO ELECTRONICO ENTIDAD</div>
+            </div>
+            <!-- Fila #10 -->
+            <div class="row">
+                <div id="excol01" class="col-md">TELÉFONOS</div>
+                <div id="excol02" class="col-md">FECHA INGRESO</div>
+                <div id="excol03" class="col-md">FECHA DE RETIRO</div>
+            </div>
+            <!-- Fila #11 -->
+            <div class="row">
+                <div id="excol01"class="col-md">CARGO O CONTRATO ACTUAL</div>
+                <div id="excol02" class="col-md">DEPENDENCIA</div>
+                <div id="excol03" class="col-md">DIRECCIÓN</div>
+            </div>
+            <!-- Fila #12 -->
+            <div class="row">
+                <div id="subtitle" class="col-md">EMPLEO O CONTRATO ANTERIOR</div>
+            </div>
+            <!-- Fila #13 -->
+            <div class="row">
+                <div id="excol1" class="col-md-6">EMPRESA O ENTIDAD</div>
+                <div id="excol2" class="col-md-1">PÚBLICA</div>
+                <div id="excol3" class="col-md-1">PRIVADA</div>
+                <div id="excol4" class="col-md-4">PAÍS</div>
+            </div>
+            <!-- Fila #14 -->
+            <div class="row">
+                <div id="excol01" class="col-md">DEPARTAMENTO</div>
+                <div id="excol02" class="col-md">MUNICIPIO</div>
+                <div id="excol03" class="col-md">CORREO ELECTRONICO ENTIDAD</div>
+            </div>
+            <!-- Fila #15 -->
+            <div class="row">
+                <div id="excol01" class="col-md">TELÉFONOS</div>
+                <div id="excol02" class="col-md">FECHA INGRESO</div>
+                <div id="excol03" class="col-md">FECHA DE RETIRO</div>
+            </div>
+            <!-- Fila #16 -->
+            <div class="row">
+                <div id="excol01" class="col-md">CARGO O CONTRATO ACTUAL</div>
+                <div id="excol02" class="col-md">DEPENDENCIA</div>
+                <div id="excol03" class="col-md">DIRECCIÓN</div>
+            </div>
+            <!-- Fila #17 -->
+            <div class="row">
+                <div  id="subtitle" class="col-md">EMPLEO O CONTRATO ANTERIOR</div>
+            </div>
+            <!-- Fila #18 -->
+            <div class="row">
+                <div id="excol1" class="col-md-6">EMPRESA O ENTIDAD</div>
+                <div id="excol2" class="col-md-1">PÚBLICA</div>
+                <div id="excol3" class="col-md-1">PRIVADA</div>
+                <div id="excol4" class="col-md-4">PAÍS</div>
+            </div>
+            <!-- Fila #19 -->
+            <div class="row">
+                <div id="excol01" class="col-md">DEPARTAMENTO</div>
+                <div id="excol02" class="col-md">MUNICIPIO</div>
+                <div id="excol03" class="col-md">CORREO ELECTRONICO ENTIDAD</div>
+            </div>
+            <!-- Fila #20 -->
+            <div class="row">
+                <div id="excol01" class="col-md">TELÉFONOS</div>
+                <div id="excol02" class="col-md">FECHA INGRESO</div>
+                <div id="excol03" class="col-md">FECHA DE RETIRO</div>
+            </div>
+            <!-- Fila #21 -->
+            <div class="row">
+                <div id="excol01" class="col-md">CARGO O CONTRATO ACTUAL</div>
+                <div id="excol02" class="col-md">DEPENDENCIA</div>
+                <div id="excol03" class="col-md">DIRECCIÓN</div>
+            </div>
+        </div>
+        
+         <!-- Etiqueta -->
+         <div class="etiqueta">
+            <div class="number">4</div>
+            <div class="text">TIEMPO TOTAL DE EXPERIENCIA</div>
+        </div>
+        
+        <!-- Experiencia laboral -->
+        <div class="subcontainer-5">
+            <div class="row">
+                <div class="col-md">INDIQUE EL TIEMPO TOTAL DE SU EXPERIENCIA LABORAL EN NÚMERO DE AÑOS Y MESES</div>
+            </div>
+        </div>
+
+         <!-- Etiqueta -->
+         <div class="etiqueta">
+            <div class="number">5</div>
+            <div class="text">FIRMA DEL SERVIDOR PÚBLICO O CONTRATISTA</div>
+        </div>
+
+        <!-- Firma  -->
+        <div class="subcontainer-6">
+            <div class="row">
+                <div class="col-md">FIRMA</div>
+            </div>
+        </div>
+
+         <!-- Etiqueta -->
+         <div class="etiqueta">
+            <div class="number">6</div>
+            <div class="text">OBSERVACIONES DEL JEFE DE RECURSOS HUMANOS Y/O CONTRATOS</div>
+        </div>
+
+        <!-- Observaciones  -->
+        <div class="subcontainer-7">
+            <div class="row">
+                <div class="col-md">Observaciones   </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
