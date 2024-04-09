@@ -9,6 +9,7 @@
     width: 60%;
     position: relative;
     left: 16%;
+    margin-bottom: 10%;
 }
 .p{
     font-size: 12px;
@@ -23,6 +24,9 @@
     margin-top: 3%;
     
 }
+/*
+estilo de las etiquetas para la hoja de vida
+*/
 .number{
     background-color: black;
     border-radius: 50%;
@@ -136,7 +140,8 @@ Ojo son con las filas filas #2
 
 }
 #pais{
-    border-radius: 15px;
+    border: none; 
+    border-bottom: 1px solid black;
     margin-right: 10px;
     width: 30%;
 
@@ -152,5 +157,19 @@ Ojo son con las filas filas #2
     margin-right: 20px;
     margin-left: 10px;
     width: 30%;
+    font-display: 1px;
 
+}
+#ajusancho{
+
+    border: none; 
+    border-bottom: 1px solid black;
+    margin-right: 20px;
+    margin-left: 10px;
+    width: 40%;
+    font-display: 1px;
+
+}
+#tiempo{
+    width: 10%;
 }
