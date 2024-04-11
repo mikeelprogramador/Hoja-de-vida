@@ -87,41 +87,42 @@
     width: 30%;
      
 }
-
-/*
-*
-*/
+/* ALINEACION DE TEXTO */
 .col-lg{
     text-align: center;
 }
-/*
-*
-*/
+/* AJUSTES PARA EL INPUT */
 #boton{
     width: 60%;
     position: relative;
     left: 16%;
     margin-bottom: 10%;
 }
+/* AJUSTES DE LA LETRA */
 .p{
     font-size: 12px;
     position: relative;
     top: 10px; 
 }
+
 /*
-estilo de las etiquetas para la hoja de vida
+*AJUSTES DE LAS ETIQUETAS 
 */
+/* MARGEN DE LA ETIQUETA */
 .etiqueta{
     display: flex;
     margin-top: 2%;
 }
+/* TAMAÑO Y DISEÑO DEL NUMERO DE LA ETIQUETA */
 .number{
     background-color: black;
     border-radius: 50%;
     color:white;
-    width: 2%; 
+    width: auto; 
     text-align: center;
+    padding: 0px 10px;
 }
+/* TAMAÑO Y DISEÑO DEL TEXTO DE LA ETIQUETA */
 .text
 {
     background-color: black;
@@ -134,88 +135,35 @@ estilo de las etiquetas para la hoja de vida
     padding: 0px 10px;
     
 }
-/* 
-Enunciados de la experiencia laboral
-*/
-#subtitle{
-    border: 1px solid black;
-    text-align: center;
-    border-top: none;
-}
-#title{
-    border: 1px solid black; 
-    text-align: center;
-}
+
 /*
-Columnas de la experiencia laboral Fila #1
+*DISEÑO DEL DATO INTERNO DEL CONTENEDOR #1
 */
-#excol1{
-    border: 1px solid black;
-    border-right: none;
-    border-top: none;
-}
-
-#excol2{
-    border: 1px solid black;
-    border-right: none;
-    border-top: none;
-}
-
-#excol3{
-    border: 1px solid black;
-    border-right: none;
-    border-top: none;
-}
-
-#excol4{
-    border: 1px solid black;
-    border-top: none;
-}
-/*
-Ojo son con las filas filas #2
-*/
-#excol01{
-    border: 1px solid black;
-    border-right: none;
-    border-top: none;
-    padding: 5px;
-}
-#excol02{
-    border: 1px solid black;
-    border-right: none;
-    border-top: none;
-}
-#excol03{
-    border: 1px solid black;
-    border-top: none;
-    padding: 5px;
-}
+/* DISEÑO DE LA FILA #1 Y LAS COLUMNAS */
 #dacol1{
     border: 1px solid black;
     border-right: none;
-
 }
 #dacol2{
     border: 1px solid black;
     border-right: none;
-
 }
 #dacol3{
     border: 1px solid black;
-
 }
+
 /*
+*AJUSTES ADICIONALES PARA DEL CONTENEDOR #1 
 */
+#mover{
+    margin-right: 10px;
+    margin-left: 5px;
+}
 #pais{
     border: none; 
     border-bottom: 1px solid black;
     margin-right: 10px;
     width: 30%;
-
-}
-#mover{
-    margin-right: 10px;
-    margin-left: 5px;
 }
 #ajustes{
 
@@ -225,7 +173,6 @@ Ojo son con las filas filas #2
     margin-left: 10px;
     width: 30%;
     font-display: 1px;
-
 }
 #ajusancho{
 
@@ -233,49 +180,39 @@ Ojo son con las filas filas #2
     border-bottom: 1px solid black;
     margin-right: 20px;
     margin-left: 10px;
-    width: 40%;
+    width: 38%;
     font-display: 1px;
-
 }
-/*
-Botones de la fecha
-*/
 #tiempo{
     width: 10%;
 }
-#tiempo1{
-    width: 10%;
-    height: 65%;
-}
+
 /*
-Fila 1 de FORMACIÓN ACADÉMICA
+*DISEÑO Y CONTENIDO DEL CONTENEDOR #2
 */
-#subformar{
+/* DISEÑO DE LA FILA #1 DEL CONTENEDOR #2 */
+.subsubcontainer{
     margin-left:5%;
     margin-right:5%;
     margin-bottom:1%;
     border-radius: 10px;
     border: 1px solid black; 
-}
-#linefor{
-
-    border-top: 1px solid black;
-    margin-left:auto;
-    margin-right:auto;
+    padding: 0px 10px;
 }
 #line{
     border-left:1px solid black;
 }
-
+#linefor{
+    border-top: 1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+}
 #formar{
     text-align: center; 
     border-right: 1px solid black;
-    
-
 }
 #primari{
     display: flex;
-
     text-align: center;
 }
 #lineprimari{
@@ -286,40 +223,38 @@ Fila 1 de FORMACIÓN ACADÉMICA
 #linesecun{
     border-top: 1px solid black;
 }
-/*
-Fila 2 de FORMACIÓN ACADÉMICA
-*/
-table {
-    width: 100%;
+#tiempo1{
+    width: 10%;
+    height: 65%;
 }
-td 
-
-th, td {
-
-    border: 1px solid black;
-}
+/* DISEÑO DE LA FILA #2 DEL CONTENEDOR #2 */
 
 
-/*
-Fila 3 de FORMACIÓN ACADÉMICA
-*/
+
+
+/* DISEÑO DE LA FILA #3 DEL CONTENDDOR #2 */
 .subidioma{
     border: 1px solid black;
     border-radius: 15px;
     margin-right: 10%;
     margin-left: 10%;
     margin-bottom: 1%;
+    padding: 0px 10px;
 
 }
 #lineaidioma{
     border-left: 1px solid black;
 
 }
+/*
+*CODIGO DE LA TABLA QUE HAY EN LA FINA #3 
+*LOS DATOS IMPORTANTE DE ESTA TABLA SON TODO LOS QUE ESTAN ACONTINUACION
+*POR LO MISMO SE RECOMIENDA NO TOCAR SI NO LO PUEDES ENTENDER
+*/
 #resulidioma{
     border-top: 1px solid black;
     border-right: 1px solid black;
 }
-
 #resulidioma2{
     border-top: 1px solid black;
 
@@ -339,5 +274,61 @@ Fila 3 de FORMACIÓN ACADÉMICA
     border-bottom: 1px solid black;
     margin-left: 1%;
 }
+/* lEER COMENTARIO ANTERIOR */
 
 
+
+/* 
+*CONTENEDOR #4 
+*/
+/* ENUNCIADOS DE LA EXPERIENCIA LABORAL */
+#subtitle{
+    border: 1px solid black;
+    text-align: center;
+    border-top: none;
+}
+#title{
+    border: 1px solid black; 
+    text-align: center;
+}
+/*
+*COLUMAS DE LA EXPERIENCIA LABORAL FILAS Y COLUMNAS
+*/
+#excol1{
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+}
+#excol2{
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+}
+#excol3{
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+}
+#excol4{
+    border: 1px solid black;
+    border-top: none;
+}
+/*
+*MODIFICACION DE LAS FILAS Y LA COLUMNAS DE LA FILA #1 CONTENEDOR #4
+*/
+#excol01{
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+    padding: 5px;
+}
+#excol02{
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+}
+#excol03{
+    border: 1px solid black;
+    border-top: none;
+    padding: 5px;
+}

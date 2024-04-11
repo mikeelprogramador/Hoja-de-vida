@@ -9,6 +9,8 @@
   </head>
   <body>
     <!-- Portada de hoja de vida-->
+
+    <!-- CONTENEDOR PADRE -->
     <div class="container">
         <div class="subcontainer">
             <div class="row">
@@ -69,7 +71,8 @@
                     <input id="mover" type="radio">PRIMERA CLASE 
                     <input id="mover" type="radio">SEGUNDA CLASE 
                     <input id="ajustes" type="text" placeholder="Numero">
-                    <input id="ajustes" type="text" placeholder="D.M"></div>
+                    <input id="ajustes" type="text" placeholder="D.M">
+                </div>
             </div>
             <!-- Fila #4 -->
             <div class="row">
@@ -110,7 +113,7 @@
             <div class="text">FORMACIÓN ACADÉMICA</div>
         </div>
 
-        <!-- Educacion básica -->
+        <!-- FORMACIÓN ACADÉMICA -->
         <div class="subcontainer-3">
             <!-- Fila #1 -->
             <div class="row"style="border:1px solid black">
@@ -118,22 +121,24 @@
                     <p>MARQUE CON UNA X EL ÚLTIMO GRADO APROBADO ( LOS GRADOS DE 1o. A 6o. DE BACHILLERATO EQUIVALEN A LOS GRADOS 6o. A 11o. DE
                         EDUCACIÓN BÁSICA SECUNDARIA Y MEDIA )</p><br>
 
-                        <div id="subformar" class="subsubcontainer">
+                        <div  class="subsubcontainer">
                             <div class="row">
                                 <div class="col-lg">EDUCACIÓN BASICA</div>
                                 <div  id="line" class="col-md">TÍTULOS OBTENIDOS:</div>
                             </div>
                             <div id="linefor" class="row">
                                 <div id="formar" class="col-md-2">PRIMARIA
+                                    <!-- FILAS -->
                                     <div id="primari" class="row">
                                         <div id="lineprimari" class="col-md-3">1°.</div>
-                                        <div id="lineprimari" class="col-md-3">2°.</div>
+                                        <div id="lineprimari" class="col-md-2">2°.</div>
                                         <div id="lineprimari" class="col-md-2">3°.</div>
                                         <div id="lineprimari" class="col-md-2">4°.</div>
-                                        <div id="linesecun" class="col-md-2">5°.</div>
+                                        <div id="linesecun" class="col-md-3">5°.</div>
                                     </div>
                                 </div>
                                 <div id="formar" class="col-md-2">SEGUNDARIA
+                                    <!-- FILAS -->
                                     <div id="primari" class="row">
                                         <div id="lineprimari" class="col-md-3">6°.</div>
                                         <div id="lineprimari" class="col-md-3">7°.</div>
@@ -142,14 +147,17 @@
                                     </div>
                                 </div>
                                 <div id="formar" class="col-md-2">MEDIA
+                                    <!-- FILAS -->
                                     <div id="primari" class="row">
                                         <div id="lineprimari" class="col-md">10°.</div>
                                         <div id="linesecun" class="col-md">11°.</div>
                                     </div>
                                 </div>
                                 <div  class="col-md-6">FECHA DE GRADO
+                                    <!-- FILAS -->
                                     <div id="primari" class="row">
-                                        <div id="linesecun" class="col-md">MES
+                                        <div id="linesecun" class="col-md">
+                                            MES
                                             <input id="tiempo1"type="number" min="1" max="12">
                                             AÑO
                                             <input id="tiempo1" type="number" min="1900" max="2100"><br>
@@ -168,40 +176,6 @@
                     <b>ES</b> (ESPECIALIZACIÓN), <br> <b>MG </b>(MAESTRÍA O MAGISTER), <b>DOC</b> (DOCTORADO O PHD),<br>
                     RELACIONE AL FRENTE EL NÚMERO DE LA TARJETA PROFESIONAL (SI ÉSTA HA SIDO PREVISTA EN UNA LEY).</p>
                     
-                    <!-- Tabla para ingreso de datos educacion superior -->
-                    <table>
-                        <!-- Cabeza de la tabla -->
-                        <thead>
-                            <tr>
-                                <th>MODALIDAD<br>ACADÉMICA</th>
-                                <th>N° SEMESTRES <br> APROBADOS</th>
-                                <th>GRADUADO
-                                    <table>
-                                        <tr>
-                                            <th>SI</th>
-                                            <th>NO</th>
-                                        </tr>
-                                    </table>
-                                </th>
-                                <th>NOMBRE  DE LOS ESTUDIOS <br> O TÍTULOS  OBTENIDOS </th>
-                                <th>TERMINACÓN
-                                    <table>
-                                        <tr>
-                                            <th>MES</th>
-                                            <th>AÑO</th>
-                                        </tr>
-                                    </table>
-                                </th>
-                                <th>N° DE TARJETA <br> PROFESIONAL</th>
-                            </tr>
-                        </thead>
-                        <!-- Cuerpo de la tabla -->
-                        <tbody>
-                            <tr>
-                                <td><br></td>
-                            </tr>
-                        </tbody>
-                    </table>
                 </div>
             </div>
             <!-- Fila #3 -->
@@ -302,7 +276,15 @@
                     </div>
                 </div>
             </div>
+        </div><br><br><br>
+        
+        <!-- TEXTO INTERMEDIO PARA PARRAFO -->
 
+        <div class="col-lg">
+            <h3>FORMATO ÚNICO</h3>
+            <h1>HOJA DE VIDA</h1>
+            <h4>Persona Natural</h4>
+            <p>(Leyes 190 de 1995, 489 y 443 de 1998)</p>
         </div>
         
         <!-- Etiqueta -->
@@ -313,8 +295,10 @@
 
         <!-- Experiencia laboral -->
         <div class="subcontainer-4">
+            <!-- TABLA DE LA EXPERIENCIA LABORAL -->
             <!-- Fila #1 -->
             <div class="row">
+                <!-- COLUMNA #1 TITULO DE LA PAGUINA -->
                 <div id="title" class="col-md">
                     <p>RELACIONE SU EXPERIENCIA LABORAL O DE PRESTACIÓN  DE SERVICIOS EN  ESTRICTO ORDEN  CRONOLÓGICO COMENZANDO POR EL ACTUAL</p>
                 </div>
@@ -324,28 +308,45 @@
                 <div id="subtitle" class="col-md">EMPLEO ACTUAL O CONTRATO VIGENTE</div>
             </div>
             <!-- Fila #3 -->
+            <!-- ENTIDADES -->
             <div class="row">
                 <div id="excol1" class="col-md-6">EMPRESA O ENTIDAD</div>
-                <div id="excol2" class="col-md-1">PÚBLICA</div>
+                <div id="excol2" class="col-md-1"><p>PÚBLICA</p><br></div>
                 <div id="excol3" class="col-md-1">PRIVADA</div>
                 <div id="excol4" class="col-md-4">PAÍS</div>
             </div>
             <!-- Fila #4 -->
+            <!-- DEPARTAMENTOS -->
             <div class="row">
                 <div id="excol01" class="col-md">DEPARTAMENTO</div>
-                <div id="excol02" class="col-md">MUNICIPIO</div>
+                <div id="excol02" class="col-md"><p>MUNICIPIO</p><br></div>
                 <div id="excol03" class="col-md">CORREO ELECTRONICO ENTIDAD</div>
             </div>
             <!-- Fila #5 -->
+            <!-- FECHAS -->
             <div class="row">
                 <div id="excol01" class="col-md">TELÉFONOS</div>
-                <div id="excol02" class="col-md">FECHA INGRESO</div>
-                <div id="excol03" class="col-md">FECHA DE RETIRO</div>
+                <div id="excol02" class="col-md">FECHA INGRESO <br>
+                    DÍA
+                    <input  id="tiempo" type="number" min="1" max="31">
+                    MES
+                    <input id="tiempo"type="number" min="1" max="12">
+                    AÑO
+                    <input id="tiempo" type="number" min="1900" max="2100"><br>
+                </div>
+                <div id="excol03" class="col-md">FECHA DE RETIRO <br>
+                    DÍA
+                    <input  id="tiempo" type="number" min="1" max="31">
+                    MES
+                    <input id="tiempo"type="number" min="1" max="12">
+                    AÑO
+                    <input id="tiempo" type="number" min="1900" max="2100"><br>
+                </div>
             </div>
             <!-- Fila #6 -->
             <div class="row">
                 <div id="excol01" class="col-md">CARGO O CONTRATO ACTUAL</div>
-                <div id="excol02" class="col-md">DEPENDENCIA</div>
+                <div id="excol02" class="col-md"><p>DEPENDENCIA</p><br></div>
                 <div id="excol03" class="col-md">DIRECCIÓN</div>
             </div>
             <!-- Fila #7 -->
@@ -356,25 +357,39 @@
             <div class="row">
                 <div id="excol1" class="col-md-6">EMPRESA O ENTIDAD</div>
                 <div id="excol2" class="col-md-1">PÚBLICA</div>
-                <div id="excol3" class="col-md-1">PRIVADA</div>
+                <div id="excol3" class="col-md-1"><p>PRIVADA</p><br></div>
                 <div id="excol4" class="col-md-4">PAÍS</div>
             </div>
             <!-- Fila #9 -->
             <div class="row">
                 <div id="excol01" class="col-md">DEPARTAMENTO</div>
-                <div id="excol02" class="col-md">MUNICIPIO</div>
+                <div id="excol02" class="col-md"><p>MUNICIPIO</p><br></div>
                 <div id="excol03" class="col-md">CORREO ELECTRONICO ENTIDAD</div>
             </div>
             <!-- Fila #10 -->
             <div class="row">
                 <div id="excol01" class="col-md">TELÉFONOS</div>
-                <div id="excol02" class="col-md">FECHA INGRESO</div>
-                <div id="excol03" class="col-md">FECHA DE RETIRO</div>
+                <div id="excol02" class="col-md">FECHA INGRESO <br>
+                    DÍA
+                    <input  id="tiempo" type="number" min="1" max="31">
+                    MES
+                    <input id="tiempo"type="number" min="1" max="12">
+                    AÑO
+                    <input id="tiempo" type="number" min="1900" max="2100"><br>
+                </div>
+                <div id="excol03" class="col-md">FECHA DE RETIRO <br>
+                    DÍA
+                    <input  id="tiempo" type="number" min="1" max="31">
+                    MES
+                    <input id="tiempo"type="number" min="1" max="12">
+                    AÑO
+                    <input id="tiempo" type="number" min="1900" max="2100"><br>
+                </div>
             </div>
             <!-- Fila #11 -->
             <div class="row">
                 <div id="excol01"class="col-md">CARGO O CONTRATO ACTUAL</div>
-                <div id="excol02" class="col-md">DEPENDENCIA</div>
+                <div id="excol02" class="col-md"><p>DEPENDENCIA</p><br></div>
                 <div id="excol03" class="col-md">DIRECCIÓN</div>
             </div>
             <!-- Fila #12 -->
@@ -385,25 +400,39 @@
             <div class="row">
                 <div id="excol1" class="col-md-6">EMPRESA O ENTIDAD</div>
                 <div id="excol2" class="col-md-1">PÚBLICA</div>
-                <div id="excol3" class="col-md-1">PRIVADA</div>
+                <div id="excol3" class="col-md-1"><p>PRIVADA</p><br></div>
                 <div id="excol4" class="col-md-4">PAÍS</div>
             </div>
             <!-- Fila #14 -->
             <div class="row">
                 <div id="excol01" class="col-md">DEPARTAMENTO</div>
-                <div id="excol02" class="col-md">MUNICIPIO</div>
+                <div id="excol02" class="col-md"><p>MUNICIPIO</p><br></div>
                 <div id="excol03" class="col-md">CORREO ELECTRONICO ENTIDAD</div>
             </div>
             <!-- Fila #15 -->
             <div class="row">
                 <div id="excol01" class="col-md">TELÉFONOS</div>
-                <div id="excol02" class="col-md">FECHA INGRESO</div>
-                <div id="excol03" class="col-md">FECHA DE RETIRO</div>
+                <div id="excol02" class="col-md">FECHA INGRESO <br>
+                    DÍA
+                    <input  id="tiempo" type="number" min="1" max="31">
+                    MES
+                    <input id="tiempo"type="number" min="1" max="12">
+                    AÑO
+                    <input id="tiempo" type="number" min="1900" max="2100"><br>
+                </div>
+                <div id="excol03" class="col-md">FECHA DE RETIRO <br>
+                    DÍA
+                    <input  id="tiempo" type="number" min="1" max="31">
+                    MES
+                    <input id="tiempo"type="number" min="1" max="12">
+                    AÑO
+                    <input id="tiempo" type="number" min="1900" max="2100"><br>
+                </div>
             </div>
             <!-- Fila #16 -->
             <div class="row">
                 <div id="excol01" class="col-md">CARGO O CONTRATO ACTUAL</div>
-                <div id="excol02" class="col-md">DEPENDENCIA</div>
+                <div id="excol02" class="col-md"><p>DEPENDENCIA</p><br></div>
                 <div id="excol03" class="col-md">DIRECCIÓN</div>
             </div>
             <!-- Fila #17 -->
@@ -414,27 +443,51 @@
             <div class="row">
                 <div id="excol1" class="col-md-6">EMPRESA O ENTIDAD</div>
                 <div id="excol2" class="col-md-1">PÚBLICA</div>
-                <div id="excol3" class="col-md-1">PRIVADA</div>
+                <div id="excol3" class="col-md-1"><p>PRIVADA</p><br></div>
                 <div id="excol4" class="col-md-4">PAÍS</div>
             </div>
             <!-- Fila #19 -->
             <div class="row">
                 <div id="excol01" class="col-md">DEPARTAMENTO</div>
-                <div id="excol02" class="col-md">MUNICIPIO</div>
+                <div id="excol02" class="col-md"><p>MUNICIPIO</p><br></div>
                 <div id="excol03" class="col-md">CORREO ELECTRONICO ENTIDAD</div>
             </div>
             <!-- Fila #20 -->
             <div class="row">
                 <div id="excol01" class="col-md">TELÉFONOS</div>
-                <div id="excol02" class="col-md">FECHA INGRESO</div>
-                <div id="excol03" class="col-md">FECHA DE RETIRO</div>
+                <div id="excol02" class="col-md">FECHA INGRESO <br>
+                    DÍA
+                    <input  id="tiempo" type="number" min="1" max="31">
+                    MES
+                    <input id="tiempo"type="number" min="1" max="12">
+                    AÑO
+                    <input id="tiempo" type="number" min="1900" max="2100"><br>
+                </div>
+                <div id="excol03" class="col-md">FECHA DE RETIRO <br>
+                    DÍA
+                    <input  id="tiempo" type="number" min="1" max="31">
+                    MES
+                    <input id="tiempo"type="number" min="1" max="12">
+                    AÑO
+                    <input id="tiempo" type="number" min="1900" max="2100"><br>
+                </div>
             </div>
             <!-- Fila #21 -->
             <div class="row">
                 <div id="excol01" class="col-md">CARGO O CONTRATO ACTUAL</div>
-                <div id="excol02" class="col-md">DEPENDENCIA</div>
+                <div id="excol02" class="col-md"><p>DEPENDENCIA</p><br></div>
                 <div id="excol03" class="col-md">DIRECCIÓN</div>
             </div>
+        </div><br>
+        <!-- PARRAFO DE RECORDATORIO -->
+        <samp><b>NOTA:</b>SI REQUIERE ADICIONAR MAS EXPERIENCIA LABORAL, IMPRIMA NUEVAMENTE ESTA HOJA .</samp><br><br><br>
+
+         <!-- TEXTO INTERMEDIO PARA PARRAFO -->
+        <div class="col-lg">
+            <h3>FORMATO ÚNICO</h3>
+            <h1>HOJA DE VIDA</h1>
+            <h4>Persona Natural</h4>
+            <p>(Leyes 190 de 1995, 489 y 443 de 1998)</p>
         </div>
         
          <!-- Etiqueta -->
