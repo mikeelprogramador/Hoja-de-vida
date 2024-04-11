@@ -72,11 +72,13 @@
 /*
 *ESTE CONTENEDOR ESTA PARA LAS OBSERVACIONES DEL DEJE
 */
-.subcontainer-7{
-    /* border-right: 8px solid black;
-    border-bottom: 8px solid black;
-    padding: 0px 10px; */
+.subcontainer-md-7{
+    border: 0.5px solid black;
+    border-right: 8px solid black;
+    border-bottom: 8px solid black; 
     margin-top: 2%;
+    margin-bottom: 3%;
+
 }
 
 /*
@@ -228,7 +230,33 @@
     height: 65%;
 }
 /* DISEÑO DE LA FILA #2 DEL CONTENEDOR #2 */
+.tabla{
+    margin: 0%;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+#sub8_1{
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0%;
+    border-bottom: none;
+}
+#sub8_2{
 
+    margin: 0%;
+    display: flex;
+}
+#union{
+    display: flex;
+    border: 1px solid black;
+    margin: 0%;
+}
+#separado{
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0%;
+}
+#bajo{
+    border: 1px solid black;
+}
 
 
 
@@ -331,4 +359,26 @@
     border: 1px solid black;
     border-top: none;
     padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+*DISEÑO DE EL CONTENEDOR #7
+*/
+/* CAJA DE COMENTARIOS */
+.observer{
+
+width: 90%;
+height: 200px;
+margin-top: 2%;
+margin-left: 4%;
+border-radius: 15px;
 }
