@@ -50,6 +50,9 @@ estilo de las etiquetas para la hoja de vida
     display: flex;
     margin-top: 2%;
 }
+/*
+Contenedores 
+*/
 .subcontainer-2{
     margin-top: 2%;
     
@@ -139,6 +142,8 @@ Ojo son con las filas filas #2
     border: 1px solid black;
 
 }
+/*
+*/
 #pais{
     border: none; 
     border-bottom: 1px solid black;
@@ -170,6 +175,76 @@ Ojo son con las filas filas #2
     font-display: 1px;
 
 }
+/*
+Botones de la fecha
+*/
 #tiempo{
     width: 10%;
 }
+#tiempo1{
+    width: 10%;
+    height: 65%;
+}
+/*
+Fila 1 de FORMACIÓN ACADÉMICA
+*/
+#subformar{
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:1%;
+    border-radius: 10px;
+    border: 1px solid black; 
+}
+#linefor{
+
+    border-top: 1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+}
+#line{
+    border-left:1px solid black;
+}
+
+#formar{
+    text-align: center; 
+    border-right: 1px solid black;
+    
+
+}
+#primari{
+    display: flex;
+
+    text-align: center;
+}
+#lineprimari{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    
+}
+#linesecun{
+    border-top: 1px solid black;
+}
+/*
+Fila 2 de FORMACIÓN ACADÉMICA
+*/
+
+/*
+Fila 3 de FORMACIÓN ACADÉMICA
+*/
+.subidioma{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+#lineaidioma{
+    border-left: 1px solid black;
+
+}
+#resulidioma{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
