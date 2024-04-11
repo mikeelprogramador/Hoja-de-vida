@@ -43,6 +43,7 @@
             </div>
             <!-- Fila #2 -->
             <div class="row">
+                <!-- Columna #1 Documentos -->
                 <div id="excol01" class="col-md-6">DOCUMENTO<br>
                     <input id="mover" type="radio">C.C 
                     <input id="mover" type="radio">C.E 
@@ -161,7 +162,47 @@
             </div>
             <!-- Fila #2 -->
             <div class="row"style="border:1px solid black">
-                <div class="col-md">Educaicon superior</div>
+                <div class="col-md"><br><p><b>EDUCACION SUPERIOR (PREGRADO Y POSTGRADO)</b><br>
+                    DILIGENCIE ESTE PUNTO EN ESTRICTO ORDEN CRONOLÓGICO, EN MODALIDAD ACADÉMICA ESCRIBA: <br>
+                    <b>TC</b> (TÉCNICA), <b>TL</b> (TECNOLÓGICA), <b>TE</b>(TECNOLÓGICA ESPECIALIZADA), <b>UN</b>(UNIVERSITARIA),
+                    <b>ES</b> (ESPECIALIZACIÓN), <br> <b>MG </b>(MAESTRÍA O MAGISTER), <b>DOC</b> (DOCTORADO O PHD),<br>
+                    RELACIONE AL FRENTE EL NÚMERO DE LA TARJETA PROFESIONAL (SI ÉSTA HA SIDO PREVISTA EN UNA LEY).</p>
+                    
+                    <!-- Tabla para ingreso de datos educacion superior -->
+                    <table>
+                        <!-- Cabeza de la tabla -->
+                        <thead>
+                            <tr>
+                                <th>MODALIDAD<br>ACADÉMICA</th>
+                                <th>N° SEMESTRES <br> APROBADOS</th>
+                                <th>GRADUADO
+                                    <table>
+                                        <tr>
+                                            <th>SI</th>
+                                            <th>NO</th>
+                                        </tr>
+                                    </table>
+                                </th>
+                                <th>NOMBRE  DE LOS ESTUDIOS <br> O TÍTULOS  OBTENIDOS </th>
+                                <th>TERMINACÓN
+                                    <table>
+                                        <tr>
+                                            <th>MES</th>
+                                            <th>AÑO</th>
+                                        </tr>
+                                    </table>
+                                </th>
+                                <th>N° DE TARJETA <br> PROFESIONAL</th>
+                            </tr>
+                        </thead>
+                        <!-- Cuerpo de la tabla -->
+                        <tbody>
+                            <tr>
+                                <td><br></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <!-- Fila #3 -->
             <div class="row"style="border:1px solid black">
@@ -169,13 +210,20 @@
                     <div class="subidioma">
                         <!-- Fila #1 -->
                         <div class="row">
-                            <div class="col-lg">IDIOMA</div>
+                            <div class="col-lg">IDIOMA
+                                <!-- Filas para colocar el idioma -->
+                                <div class="row">
+                                    <div id="speak" class="col-md"><br></div>
+                                </div>
+                                
+                            </div>
+                            
                             <div id="lineaidioma" class="col-md-2">LO HABLO
                                 <!-- Contenido interno -->
                                 <div class="row">
                                     <div id="resulidioma" class="col-md">R</div>
-                                    <div id="resulidioma"class="col-md">B</div>
-                                    <div class="col-md">MB</div>
+                                    <div id="resulidioma" class="col-md">B</div>
+                                    <div id="resulidioma2" class="col-md">MB</div>
                                 </div>
                             </div>  
                             <div id="lineaidioma" class="col-md-2">LO LEE
@@ -183,25 +231,73 @@
                                 <div class="row">
                                     <div id="resulidioma" class="col-md">R</div>
                                     <div id="resulidioma" class="col-md">B</div>
-                                    <div class="col-md">MB</div>
+                                    <div id="resulidioma2" class="col-md">MB</div>
                                 </div>
                             </div>
                             <div id="lineaidioma" class="col-md-2">LO ESCRIBE
                                 <!-- Contenido interno -->
                                 <div class="row">
-                                    <div id="resulidioma" class="col-md">R</div>
-                                    <div id="resulidioma" class="col-md">B</div>
-                                    <div class="col-md">MB</div>
+                                    <div id="resulidioma" class="col-md-4">R</div>
+                                    <div id="resulidioma" class="col-md-4">B</div>
+                                    <div id="resulidioma2" class="col-md-3">MB</div>
                                 </div>
                             </div>
                         </div>
                         <!-- Fila #2 -->
                         <div class="row">
-                            <div class="col-md"></div>
+                            <div id="solucion" class="col-lg"></div>
+                            <div id="lineaidioma" class="col-md-2">
+                                <!-- Contenido interno -->
+                                <div class="row">
+                                    <div id="resulidioma" class="col-md"></div>
+                                    <div id="resulidioma" class="col-md"><br></div>
+                                    <div id="resulidioma2" class="col-md"></div>
+                                </div>
+                            </div>  
+                            <div id="lineaidioma" class="col-md-2">
+                                <!-- Contenido interno -->
+                                <div class="row">
+                                    <div id="resulidioma" class="col-md"></div>
+                                    <div id="resulidioma" class="col-md"><br></div>
+                                    <div id="resulidioma2" class="col-md"></div>
+                                </div>
+                            </div>
+                            <div id="lineaidioma" class="col-md-2">
+                                <!-- Contenido interno -->
+                                <div class="row">
+                                    <div id="resulidioma" class="col-md-4"></div>
+                                    <div id="resulidioma" class="col-md-4"><br></div>
+                                    <div id="resulidioma2" class="col-md-3"></div>
+                                </div>
+                            </div>
                         </div>
                         <!-- Fila #3 -->
                         <div class="row">
-                            <div class="col-md"></div>
+                            <div class="col-lg"></div>
+                            <div id="lineaidioma" class="col-md-2">
+                                <!-- Contenido interno -->
+                                <div class="row">
+                                    <div id="resulidioma" class="col-md"></div>
+                                    <div id="resulidioma" class="col-md"><br></div>
+                                    <div id="resulidioma2" class="col-md"></div>
+                                </div>
+                            </div>  
+                            <div id="lineaidioma" class="col-md-2">
+                                <!-- Contenido interno -->
+                                <div class="row">
+                                    <div id="resulidioma" class="col-md"></div>
+                                    <div id="resulidioma" class="col-md"><br></div>
+                                    <div id="resulidioma2" class="col-md"></div>
+                                </div>
+                            </div>
+                            <div id="lineaidioma" class="col-md-2">
+                                <!-- Contenido interno -->
+                                <div class="row">
+                                    <div id="resulidioma" class="col-md-4"></div>
+                                    <div id="resulidioma" class="col-md-4"><br></div>
+                                    <div id="resulidioma2" class="col-md-3"></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -387,4 +483,4 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
-</html> -->
+</html> 

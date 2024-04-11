@@ -1,10 +1,102 @@
+
+/*
+*CONTENEDORES QUE SE UTILIZARON  
+*/
+
+/*
+*CONTENEDOR #1 TINE LA PORTADA CON LA IMAGEN
+*/
+.subcontainer{
+    border: 8px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 10px;
+    margin-top: 3%; 
+}
+
+/*
+*CONTENEDOR #2 CONTINE EL CONTENIDO DE DATOS PERSONALES
+*/
+.subcontainer-2{
+    border: 0.5px solid black;
+    border-right: 8px solid black;
+    border-bottom: 8px solid black;
+    padding: 0px 10px;
+    margin-top: 2%;
+    
+}
+
+/*
+*CONTENEDOR #3 CONTIENE LOS DATOS DE LA FROMACIÓN ACADÉMICA
+*/
+.subcontainer-3{
+    border: 0.5px solid black;
+    border-right: 8px solid black;
+    border-bottom: 8px solid black;
+    padding: 0px 10px;
+    margin-top: 2%;
+}
+
+/*
+*CONTENEDOR #4 CONTIENE LA EXPERIENCIA LABORAL
+*/
+.subcontainer-4{
+    border: 0.5px solid black;
+    border-right: 8px solid black;
+    border-bottom: 8px solid black;
+    padding: 0px 10px;
+    margin-top: 2%;
+}
+
+/*
+*CONTIENE EL TIEMPO TOTAL DE LA EXPERIENCIA
+*/
+.subcontainer-5{
+    /* border-right: 8px solid black;
+    border-bottom: 8px solid black;
+    padding: 0px 10px; */
+    margin-top: 2%;
+}
+
+/*
+*ESTA CONTENEDOR ESTA DISEÑADA PARA LA FIRMA DEL SERVIDO PUBLICO Y DEL CONTRATISTA
+*/
+.subcontainer-6{
+    /* border-right: 8px solid black;
+    border-bottom: 8px solid black;
+    padding: 0px 10px; */
+    margin-top: 2%;
+
+}
+
+/*
+*ESTE CONTENEDOR ESTA PARA LAS OBSERVACIONES DEL DEJE
+*/
+.subcontainer-7{
+    /* border-right: 8px solid black;
+    border-bottom: 8px solid black;
+    padding: 0px 10px; */
+    margin-top: 2%;
+}
+
+/*
+*AJUSTES DEL CONTENEDOR #1
+*/
+/* TAMAÑO DE LA IMAGEN CONTENEDOR #1 */
 .Escudo{
     width: 30%;
      
 }
+
+/*
+*
+*/
 .col-lg{
     text-align: center;
 }
+/*
+*
+*/
 #boton{
     width: 60%;
     position: relative;
@@ -16,17 +108,13 @@
     position: relative;
     top: 10px; 
 }
-.subcontainer{
-    border: 8px solid black;
-    border-left: 1px solid black;
-    border-top: 1px solid black;
-    border-radius: 10px;
-    margin-top: 3%;
-    
-}
 /*
 estilo de las etiquetas para la hoja de vida
 */
+.etiqueta{
+    display: flex;
+    margin-top: 2%;
+}
 .number{
     background-color: black;
     border-radius: 50%;
@@ -46,32 +134,6 @@ estilo de las etiquetas para la hoja de vida
     padding: 0px 10px;
     
 }
-.etiqueta{
-    display: flex;
-    margin-top: 2%;
-}
-/*
-Contenedores 
-*/
-.subcontainer-2{
-    margin-top: 2%;
-    
-}
-.subcontainer-3{
-    margin-top: 2%;
-}
-.subcontainer-4{
-    margin-top: 2%;
-}
-.subcontainer-5{
-    margin-top: 2%;
-}
-.subcontainer-6{
-    margin-top: 2%;
-
-}.subcontainer-7{
-    margin-top: 2%;
-}
 /* 
 Enunciados de la experiencia laboral
 */
@@ -85,7 +147,7 @@ Enunciados de la experiencia laboral
     text-align: center;
 }
 /*
-Columnas de la experiencia laboral Fila uno
+Columnas de la experiencia laboral Fila #1
 */
 #excol1{
     border: 1px solid black;
@@ -227,6 +289,16 @@ Fila 1 de FORMACIÓN ACADÉMICA
 /*
 Fila 2 de FORMACIÓN ACADÉMICA
 */
+table {
+    width: 100%;
+}
+td 
+
+th, td {
+
+    border: 1px solid black;
+}
+
 
 /*
 Fila 3 de FORMACIÓN ACADÉMICA
@@ -234,9 +306,10 @@ Fila 3 de FORMACIÓN ACADÉMICA
 .subidioma{
     border: 1px solid black;
     border-radius: 15px;
-    width: 80%;
+    margin-right: 10%;
     margin-left: 10%;
     margin-bottom: 1%;
+
 }
 #lineaidioma{
     border-left: 1px solid black;
@@ -245,6 +318,26 @@ Fila 3 de FORMACIÓN ACADÉMICA
 #resulidioma{
     border-top: 1px solid black;
     border-right: 1px solid black;
+}
+
+#resulidioma2{
+    border-top: 1px solid black;
+
+}
+#lin{
+    border-top: 1px solid black;
+    margin-right:  1%;
+    margin-left:  1%;
+    
+}
+#speak{
+    border-bottom: 1px solid black;
+    margin-right:  0%;
+    margin-left:  2%;
+}
+#solucion{
+    border-bottom: 1px solid black;
+    margin-left: 1%;
 }
 
 
