@@ -21,7 +21,7 @@
     border: 0.5px solid black;
     border-right: 8px solid black;
     border-bottom: 8px solid black;
-    padding: 0px 10px;
+    padding: 0px 11px;
     margin-top: 2%;
     
 }
@@ -33,7 +33,7 @@
     border: 0.5px solid black;
     border-right: 8px solid black;
     border-bottom: 8px solid black;
-    padding: 0px 10px;
+    padding: 0px 11px;
     margin-top: 2%;
 }
 
@@ -44,17 +44,17 @@
     border: 0.5px solid black;
     border-right: 8px solid black;
     border-bottom: 8px solid black;
-    padding: 0px 10px;
+    padding: 0px 11px;
     margin-top: 2%;
 }
 
 /*
 *CONTIENE EL TIEMPO TOTAL DE LA EXPERIENCIA
 */
-.subcontainer-5{
-    /* border-right: 8px solid black;
-    border-bottom: 8px solid black;
-    padding: 0px 10px; */
+.subcontainer-md-5{
+    border: 0.5px solid black;
+    border-right: 8px solid black;
+    border-bottom: 8px solid black; 
     margin-top: 2%;
 }
 
@@ -62,10 +62,11 @@
 *ESTA CONTENEDOR ESTA DISEÑADA PARA LA FIRMA DEL SERVIDO PUBLICO Y DEL CONTRATISTA
 */
 .subcontainer-6{
-    /* border-right: 8px solid black;
-    border-bottom: 8px solid black;
-    padding: 0px 10px; */
+    border: 0.5px solid black;
+    border-right: 8px solid black;
+    border-bottom: 8px solid black; 
     margin-top: 2%;
+    margin-bottom: 3%;
 
 }
 
@@ -360,25 +361,72 @@
     border-top: none;
     padding: 5px;
 }
-
-
-
-
-
-
-
-
-
+/*
+*DISEÑO DE EL CONTENEDOR #5
+*/
+.tablaTime-md{
+    margin: 3% 8% 2% 8%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 0px 11px;
+}
+#tatime{
+    border: 1px solid black;
+    border-right: none;
+    border-bottom: none;
+}
+#tatime01{
+    border-top: 1px solid black;
+    
+}
+#tatime02{
+    border-left: 1px solid black;
+    
+}
+.texttime{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+/*
+*DISEÑO DE EL CONTENEDOR #6
+*/
+.texfir{
+    margin-top: 2%;
+    margin-left: 1%;
+}
+#motexfir{
+    border: none;
+    width: 45%;
+    border-bottom: 1px solid black;
+    margin-left: 25%;
+}
+.motexfir01{
+    text-align: center; 
+}
 
 /*
 *DISEÑO DE EL CONTENEDOR #7
 */
 /* CAJA DE COMENTARIOS */
-.observer{
+#comentario{
+    width: 95%; 
+    height: 150px;
+    margin: 2%; 
+    border-radius: 15px;
 
-width: 90%;
-height: 200px;
-margin-top: 2%;
-margin-left: 4%;
-border-radius: 15px;
 }
+#firma {
+    border: none;
+    width: 45%;
+    border-bottom: 1px solid black;
+    margin-left: 2%;
+}
+.moverTexto{
+    margin-left: 50%;
+    margin-top: -3%;
+}
+.moverTexto1{
+    margin-left: 2%;
+
+}
+
