@@ -60,7 +60,7 @@
 
                 <div id="excol03" class="col-md-4">NACIONALIDAD<br>
                     <input id="mover" type="radio">COLOMBIA 
-                    <input id="mover" type="radio">EXTRANGERO 
+                    <input id="mover" type="radio">EXTRANJERO 
                     <input id="pais" type="text" placeholder="Ingres el país">
                 </div>
 
@@ -121,47 +121,43 @@
                     <p>MARQUE CON UNA X EL ÚLTIMO GRADO APROBADO ( LOS GRADOS DE 1o. A 6o. DE BACHILLERATO EQUIVALEN A LOS GRADOS 6o. A 11o. DE
                         EDUCACIÓN BÁSICA SECUNDARIA Y MEDIA )</p><br>
 
-                        <div  class="subsubcontainer">
+                        <div class="subsubcontainer">
+                            <!-- Fila #1  Contiene 2 columnas -->
                             <div class="row">
-                                <div class="col-lg">EDUCACIÓN BASICA</div>
-                                <div  id="line" class="col-md">TÍTULOS OBTENIDOS:</div>
+                                <div id="titleacademi" class="col-md-7">EDUCACIÓN BÁSICA</div>
+                                <div id="titleacademi" class="col-md-5">TÍTULO OBTENIDO:</div>
                             </div>
-                            <div id="linefor" class="row">
-                                <div id="formar" class="col-md-2">PRIMARIA
-                                    <!-- FILAS -->
-                                    <div id="primari" class="row">
-                                        <div id="lineprimari" class="col-md-3">1°.</div>
-                                        <div id="lineprimari" class="col-md-2">2°.</div>
-                                        <div id="lineprimari" class="col-md-2">3°.</div>
-                                        <div id="lineprimari" class="col-md-2">4°.</div>
-                                        <div id="linesecun" class="col-md-3">5°.</div>
+                            <div class="row">
+                                <!-- Fila #2 Contine 4 columnas -->
+                                <div id="subtitleacademi" class="col-md-2">PRIMARIA
+                                    <div class="row">
+                                        <div id="textoacademi" class="col-sm-3">1°</div>
+                                        <div id="textoacademi" class="col-sm-2">2°</div>
+                                        <div id="textoacademi" class="col-sm-2">3°</div>
+                                        <div id="textoacademi" class="col-sm-2">4°</div>
+                                        <div id="textoacademi" class="col-sm-3">5°</div>
                                     </div>
                                 </div>
-                                <div id="formar" class="col-md-2">SEGUNDARIA
-                                    <!-- FILAS -->
-                                    <div id="primari" class="row">
-                                        <div id="lineprimari" class="col-md-3">6°.</div>
-                                        <div id="lineprimari" class="col-md-3">7°.</div>
-                                        <div id="lineprimari"class="col-md-3">8°.</div>
-                                        <div id="linesecun" class="col-md-3">9°.</div>
+                                <div id="subtitleacademi" class="col-md-3">SECUNDARIA
+                                    <div class="row">
+                                        <div id="textoacademi" class="col-sm-3">6°</div>
+                                        <div id="textoacademi" class="col-sm-3">7°</div>
+                                        <div id="textoacademi" class="col-sm-3">8°</div>
+                                        <div id="textoacademi" class="col-sm-3">9°</div>
                                     </div>
                                 </div>
-                                <div id="formar" class="col-md-2">MEDIA
-                                    <!-- FILAS -->
-                                    <div id="primari" class="row">
-                                        <div id="lineprimari" class="col-md">10°.</div>
-                                        <div id="linesecun" class="col-md">11°.</div>
+                                <div id="subtitleacademi" class="col-md-2">MEDIA
+                                    <div class="row">
+                                        <div id="textoacademi" class="col-sm-6">10°</div>
+                                        <div id="textoacademi" class="col-sm-6">11°</div>
                                     </div>
                                 </div>
-                                <div  class="col-md-6">FECHA DE GRADO
-                                    <!-- FILAS -->
-                                    <div id="primari" class="row">
-                                        <div id="linesecun" class="col-md">
+                                <div id="subtitleacademi" class="col-md-5">FECHA DE GRADO
+                                    <div id="border" class="row">
                                             MES
-                                            <input id="tiempo1"type="number" min="1" max="12">
+                                            <input id="fechacademi" type="number" min="1" max="12">
                                             AÑO
-                                            <input id="tiempo1" type="number" min="1900" max="2100"><br>
-                                        </div>
+                                            <input id="fechacademi" type="number" min="1900" max="2100">
                                     </div>
                                 </div>
                             </div>
@@ -210,95 +206,93 @@
                     <div class="subidioma">
                         <!-- Fila #1 -->
                         <div class="row">
-                            <div class="col-lg">IDIOMA
-                                <!-- Filas para colocar el idioma -->
+                           <div class="col-md-6">IDIOMA</div>
+
+                           <div id="colgeneral" class="col-md-2">LO HABLO
+                            <!-- Se crea una Fila dentro de la columna para ingresar los datos -->
                                 <div class="row">
-                                    <div id="speak" class="col-md"><br></div>
+                                    <div id="general" class="col-sm-4">R</div>
+                                    <div id="general" class="col-sm-4">B</div>
+                                    <div id="general" class="col-sm-4">MB</div>
                                 </div>
-                                
-                            </div>
-                            
-                            <div id="lineaidioma" class="col-md-2">LO HABLO
-                                <!-- Contenido interno -->
+                           </div>
+                           <div id="colgeneral" class="col-md-2">LO SE LEER
+                            <!-- Se crea una Fila dentro de la columna para ingresar los datos -->
                                 <div class="row">
-                                    <div id="resulidioma" class="col-md">R</div>
-                                    <div id="resulidioma" class="col-md">B</div>
-                                    <div id="resulidioma2" class="col-md">MB</div>
+                                    <div id="general" class="col-sm-4">R</div>
+                                    <div id="general" class="col-sm-4">B</div>
+                                    <div id="general" class="col-sm-4">MB</div>
                                 </div>
-                            </div>  
-                            <div id="lineaidioma" class="col-md-2">LO LEE
-                                <!-- Contenido interno -->
+                           </div>
+                           <div id="colgeneral" class="col-md-2">LO ESCRIBO
+                            <!-- Se crea una Fila dentro de la columna para ingresar los datos -->
                                 <div class="row">
-                                    <div id="resulidioma" class="col-md">R</div>
-                                    <div id="resulidioma" class="col-md">B</div>
-                                    <div id="resulidioma2" class="col-md">MB</div>
+                                    <div id="general" class="col-sm-4">R</div>
+                                    <div id="general" class="col-sm-4">B</div>
+                                    <div id="general" class="col-sm-4">MB</div>
                                 </div>
-                            </div>
-                            <div id="lineaidioma" class="col-md-2">LO ESCRIBE
-                                <!-- Contenido interno -->
-                                <div class="row">
-                                    <div id="resulidioma" class="col-md-4">R</div>
-                                    <div id="resulidioma" class="col-md-4">B</div>
-                                    <div id="resulidioma2" class="col-md-3">MB</div>
-                                </div>
-                            </div>
+                           </div>
                         </div>
                         <!-- Fila #2 -->
                         <div class="row">
-                            <div id="solucion" class="col-lg"></div>
-                            <div id="lineaidioma" class="col-md-2">
-                                <!-- Contenido interno -->
+                            <!-- Esta es la primera columna no se modifica -->
+                            <div id="generalcol" class="col-md-6">Español</div>
+                            <!-- Se crea una Fila dentro de la columna #1 para ingresar los datos -->
+                            <div class="col-md-2">
                                 <div class="row">
-                                    <div id="resulidioma" class="col-md"></div>
-                                    <div id="resulidioma" class="col-md"><br></div>
-                                    <div id="resulidioma2" class="col-md"></div>
-                                </div>
-                            </div>  
-                            <div id="lineaidioma" class="col-md-2">
-                                <!-- Contenido interno -->
-                                <div class="row">
-                                    <div id="resulidioma" class="col-md"></div>
-                                    <div id="resulidioma" class="col-md"><br></div>
-                                    <div id="resulidioma2" class="col-md"></div>
+                                    <div id="general" class="col-sm-4"><br></div>
+                                    <div id="general" class="col-sm-4"><br></div>
+                                    <div id="general" class="col-sm-4"><br></div>
                                 </div>
                             </div>
-                            <div id="lineaidioma" class="col-md-2">
-                                <!-- Contenido interno -->
+                            <!-- Se crea una Fila dentro de la columna #2 para ingresar los datos -->
+                            <div class="col-md-2">
                                 <div class="row">
-                                    <div id="resulidioma" class="col-md-4"></div>
-                                    <div id="resulidioma" class="col-md-4"><br></div>
-                                    <div id="resulidioma2" class="col-md-3"></div>
+                                    <div id="general" class="col-sm-4"><br></div>
+                                    <div id="general" class="col-sm-4"><br></div>
+                                    <div id="general" class="col-sm-4"><br></div>
+                                </div>
+                            </div>
+                            <!-- Se crea una Fila dentro de la columna #3 para ingresar los datos -->
+                            <div class="col-md-2">
+                                <div class="row">
+                                    <div id="general" class="col-sm-4"><br></div>
+                                    <div id="general" class="col-sm-4"><br></div>
+                                    <div id="general" class="col-sm-4"><br></div>
                                 </div>
                             </div>
                         </div>
                         <!-- Fila #3 -->
                         <div class="row">
-                            <div class="col-lg"></div>
-                            <div id="lineaidioma" class="col-md-2">
-                                <!-- Contenido interno -->
+                            <!-- Esta es la primera columna no se modifica -->
+                            <div id="generalcol" class="col-md-6">Ingles</div>
+                            <!-- Se crea una Fila dentro de la columna #1 para ingresar los datos -->
+                            <div class="col-md-2">
                                 <div class="row">
-                                    <div id="resulidioma" class="col-md"></div>
-                                    <div id="resulidioma" class="col-md"><br></div>
-                                    <div id="resulidioma2" class="col-md"></div>
-                                </div>
-                            </div>  
-                            <div id="lineaidioma" class="col-md-2">
-                                <!-- Contenido interno -->
-                                <div class="row">
-                                    <div id="resulidioma" class="col-md"></div>
-                                    <div id="resulidioma" class="col-md"><br></div>
-                                    <div id="resulidioma2" class="col-md"></div>
+                                    <div id="general" class="col-sm-4"><br></div>
+                                    <div id="general" class="col-sm-4"><br></div>
+                                    <div id="general" class="col-sm-4"><br></div>
                                 </div>
                             </div>
-                            <div id="lineaidioma" class="col-md-2">
-                                <!-- Contenido interno -->
+                            <!-- Se crea una Fila dentro de la columna #2 para ingresar los datos -->
+                            <div class="col-md-2">
                                 <div class="row">
-                                    <div id="resulidioma" class="col-md-4"></div>
-                                    <div id="resulidioma" class="col-md-4"><br></div>
-                                    <div id="resulidioma2" class="col-md-3"></div>
+                                    <div id="general" class="col-sm-4"><br></div>
+                                    <div id="general" class="col-sm-4"><br></div>
+                                    <div id="general" class="col-sm-4"><br></div>
+                                </div>
+                            </div>
+                            <!-- Se crea una Fila dentro de la columna #3 para ingresar los datos -->
+                            <div class="col-md-2">
+                                <div class="row">
+                                    <div id="general" class="col-sm-4"><br></div>
+                                    <div id="general" class="col-sm-4"><br></div>
+                                    <div id="general" class="col-sm-4"><br></div>
                                 </div>
                             </div>
                         </div>
+                        
+<!-- Espacion intermedio -->
                     </div>
                 </div>
             </div>
@@ -336,10 +330,10 @@
             <!-- Fila #3 -->
             <!-- ENTIDADES -->
             <div class="row">
-                <div id="excol1" class="col-md-6">EMPRESA O ENTIDAD</div>
-                <div id="excol2" class="col-md-1"><p>PÚBLICA</p><br></div>
-                <div id="excol3" class="col-md-1">PRIVADA</div>
-                <div id="excol4" class="col-md-4">PAÍS</div>
+                <div id="excol1" class="col-md-5">EMPRESA O ENTIDAD</div>
+                <div id="excol2" class="col-md-2"><p>PÚBLICA</p><br></div>
+                <div id="excol3" class="col-md-2">PRIVADA</div>
+                <div id="excol4" class="col-md-3">PAÍS</div>
             </div>
             <!-- Fila #4 -->
             <!-- DEPARTAMENTOS -->
@@ -381,10 +375,10 @@
             </div>
             <!-- Fila #8 -->
             <div class="row">
-                <div id="excol1" class="col-md-6">EMPRESA O ENTIDAD</div>
-                <div id="excol2" class="col-md-1">PÚBLICA</div>
-                <div id="excol3" class="col-md-1"><p>PRIVADA</p><br></div>
-                <div id="excol4" class="col-md-4">PAÍS</div>
+                <div id="excol1" class="col-md-5">EMPRESA O ENTIDAD</div>
+                <div id="excol2" class="col-md-2">PÚBLICA</div>
+                <div id="excol3" class="col-md-2"><p>PRIVADA</p><br></div>
+                <div id="excol4" class="col-md-3">PAÍS</div>
             </div>
             <!-- Fila #9 -->
             <div class="row">
@@ -424,10 +418,10 @@
             </div>
             <!-- Fila #13 -->
             <div class="row">
-                <div id="excol1" class="col-md-6">EMPRESA O ENTIDAD</div>
-                <div id="excol2" class="col-md-1">PÚBLICA</div>
-                <div id="excol3" class="col-md-1"><p>PRIVADA</p><br></div>
-                <div id="excol4" class="col-md-4">PAÍS</div>
+                <div id="excol1" class="col-md-5">EMPRESA O ENTIDAD</div>
+                <div id="excol2" class="col-md-2">PÚBLICA</div>
+                <div id="excol3" class="col-md-2"><p>PRIVADA</p><br></div>
+                <div id="excol4" class="col-md-3">PAÍS</div>
             </div>
             <!-- Fila #14 -->
             <div class="row">
@@ -467,10 +461,10 @@
             </div>
             <!-- Fila #18 -->
             <div class="row">
-                <div id="excol1" class="col-md-6">EMPRESA O ENTIDAD</div>
-                <div id="excol2" class="col-md-1">PÚBLICA</div>
-                <div id="excol3" class="col-md-1"><p>PRIVADA</p><br></div>
-                <div id="excol4" class="col-md-4">PAÍS</div>
+                <div id="excol1" class="col-md-5">EMPRESA O ENTIDAD</div>
+                <div id="excol2" class="col-md-2">PÚBLICA</div>
+                <div id="excol3" class="col-md-2"><p>PRIVADA</p><br></div>
+                <div id="excol4" class="col-md-3">PAÍS</div>
             </div>
             <!-- Fila #19 -->
             <div class="row">
@@ -529,7 +523,7 @@
             <div class="tablaTime-md">
                 <!-- FILA #1 CONTINE 2 COLUMNAS -->
                 <div class="row">
-                    <div class="col-lg">OCUAPCIÓN</div>
+                    <div class="col-md-8">OCUAPCIÓN</div>
                     <div id="tatime02" class="col-md-4">TIEMPO DE EXPERIENCIA</div>
                 </div>
                 <!-- FILA #2 CONTINE 3 COLUMNAS -->
@@ -541,26 +535,26 @@
                 <!-- FILA #3 CONTINE 3 COLUMNAS -->
                 <div class="row">
                     <div id="tatime01" class="col-md-8"><p>SERVIDOR PÚBLICO</p></div>
-                    <div id="tatime" class="col-md-2"></div>
-                    <div id="tatime" class="col-md-2"></div>
+                    <div id="tatime" class="col-md-2"><br></div>
+                    <div id="tatime" class="col-md-2"><br></div>
                 </div>
                 <!-- FILA #4 CONTINE 3 COLUMNAS -->
                 <div class="row">
                     <div id="tatime01" class="col-md-8"><p>EMPLEADO DEL SECTOR PRIVADO</p></div>
-                    <div id="tatime" class="col-md-2"></div>
-                    <div id="tatime" class="col-md-2"></div>
+                    <div id="tatime" class="col-md-2"><br></div>
+                    <div id="tatime" class="col-md-2"><br></div>
                 </div>
                 <!-- FILA #5 CONTINE 3 COLUMNAS -->
                 <div class="row">
                     <div id="tatime01" class="col-md-8"><p>RABAJADOR INDEPENDIENTE</p></div>
-                    <div id="tatime" class="col-md-2"></div>
-                    <div id="tatime" class="col-md-2"></div>
+                    <div id="tatime" class="col-md-2"><br></div>
+                    <div id="tatime" class="col-md-2"><br></div>
                 </div>
                 <!-- FILA #6 CONTINE 3 COLUMNAS -->
                 <div class="row">
                     <div id="tatime01" class="col-md-8"><p><b>TOTAL TIEMPO EXPERIENCIA</b></p></div>
-                    <div id="tatime" class="col-md-2"></div>
-                    <div id="tatime" class="col-md-2"></div>
+                    <div id="tatime" class="col-md-2"><br></div>
+                    <div id="tatime" class="col-md-2"><br></div>
                 </div>
             </div>
         </div>

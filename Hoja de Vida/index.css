@@ -187,7 +187,7 @@
     font-display: 1px;
 }
 #tiempo{
-    width: 10%;
+    width: 15%;
 }
 
 /*
@@ -199,36 +199,31 @@
     margin-right:5%;
     margin-bottom:1%;
     border-radius: 10px;
-    border: 1px solid black; 
-    padding: 0px 10px;
+    border: 2px solid black; 
+    padding: 0px 11px;
 }
-#line{
-    border-left:1px solid black;
+#titleacademi{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
 }
-#linefor{
-    border-top: 1px solid black;
-    margin-left:auto;
-    margin-right:auto;
-}
-#formar{
-    text-align: center; 
+#subtitleacademi{
+    border-bottom: 1px solid black;
     border-right: 1px solid black;
+
 }
-#primari{
-    display: flex;
-    text-align: center;
+#textoacademi{
+    border: 1px solid black;
+    border-left: none;
+    padding: 2px;
+
 }
-#lineprimari{
-    border-right: 1px solid black;
+#fechacademi{
+    margin-top: 0.5%;
+    width: 20%;
+    height: 25px;
+}
+#border{
     border-top: 1px solid black;
-    
-}
-#linesecun{
-    border-top: 1px solid black;
-}
-#tiempo1{
-    width: 10%;
-    height: 65%;
 }
 /* DISEÑO DE LA FILA #2 DEL CONTENEDOR #2 */
 .tabla{
@@ -263,46 +258,36 @@
 
 /* DISEÑO DE LA FILA #3 DEL CONTENDDOR #2 */
 .subidioma{
-    border: 1px solid black;
-    border-radius: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
     margin-right: 10%;
     margin-left: 10%;
     margin-bottom: 1%;
-    padding: 0px 10px;
-
+    padding: 0px 11px;
+    
 }
-#lineaidioma{
-    border-left: 1px solid black;
 
-}
 /*
 *CODIGO DE LA TABLA QUE HAY EN LA FINA #3 
 *LOS DATOS IMPORTANTE DE ESTA TABLA SON TODO LOS QUE ESTAN ACONTINUACION
 *POR LO MISMO SE RECOMIENDA NO TOCAR SI NO LO PUEDES ENTENDER
 */
-#resulidioma{
+#generalcol{
     border-top: 1px solid black;
-    border-right: 1px solid black;
 }
-#resulidioma2{
-    border-top: 1px solid black;
 
+#general{
+    border: 1px solid black;
+    border-bottom: none;
+    border-right: none;
 }
-#lin{
+
+#colgeneral{
     border-top: 1px solid black;
-    margin-right:  1%;
-    margin-left:  1%;
-    
+    border-left: 1px solid black;
+    padding: 0px 11px;
 }
-#speak{
-    border-bottom: 1px solid black;
-    margin-right:  0%;
-    margin-left:  2%;
-}
-#solucion{
-    border-bottom: 1px solid black;
-    margin-left: 1%;
-}
+
 /* lEER COMENTARIO ANTERIOR */
 
 
@@ -366,9 +351,10 @@
 */
 .tablaTime-md{
     margin: 3% 8% 2% 8%;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 15px;
     padding: 0px 11px;
+    
 }
 #tatime{
     border: 1px solid black;
@@ -380,7 +366,9 @@
     
 }
 #tatime02{
+    border-top: 1px solid black;
     border-left: 1px solid black;
+    border-top-right-radius: 12px;
     
 }
 .texttime{
