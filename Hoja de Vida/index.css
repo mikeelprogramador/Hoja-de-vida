@@ -13,11 +13,20 @@
     border-radius: 10px;
     margin-top: 3%; 
 }
-
+/*
+*Color de fondo de los botones
+*/
+input{
+    background-color: #F1F9FB;
+}
+textarea{
+    background-color: #F1F9FB;
+}
 /*
 *CONTENEDOR #2 CONTINE EL CONTENIDO DE DATOS PERSONALES
 */
 .subcontainer-2{
+    background-color: #F1F9FB;
     border: 0.5px solid black;
     border-right: 8px solid black;
     border-bottom: 8px solid black;
@@ -30,6 +39,7 @@
 *CONTENEDOR #3 CONTIENE LOS DATOS DE LA FROMACIÓN ACADÉMICA
 */
 .subcontainer-3{
+    background-color: #F1F9FB;
     border: 0.5px solid black;
     border-right: 8px solid black;
     border-bottom: 8px solid black;
@@ -41,6 +51,7 @@
 *CONTENEDOR #4 CONTIENE LA EXPERIENCIA LABORAL
 */
 .subcontainer-4{
+    background-color: #F1F9FB;
     border: 0.5px solid black;
     border-right: 8px solid black;
     border-bottom: 8px solid black;
@@ -52,6 +63,7 @@
 *CONTIENE EL TIEMPO TOTAL DE LA EXPERIENCIA
 */
 .subcontainer-md-5{
+    background-color: #F1F9FB;
     border: 0.5px solid black;
     border-right: 8px solid black;
     border-bottom: 8px solid black; 
@@ -62,6 +74,7 @@
 *ESTA CONTENEDOR ESTA DISEÑADA PARA LA FIRMA DEL SERVIDO PUBLICO Y DEL CONTRATISTA
 */
 .subcontainer-6{
+    background-color: #F1F9FB;
     border: 0.5px solid black;
     border-right: 8px solid black;
     border-bottom: 8px solid black; 
@@ -74,6 +87,7 @@
 *ESTE CONTENEDOR ESTA PARA LAS OBSERVACIONES DEL DEJE
 */
 .subcontainer-md-7{
+    background-color: #F1F9FB;
     border: 0.5px solid black;
     border-right: 8px solid black;
     border-bottom: 8px solid black; 
@@ -96,6 +110,7 @@
 }
 /* AJUSTES PARA EL INPUT */
 #boton{
+    background-color: white;
     width: 60%;
     position: relative;
     left: 16%;
@@ -144,14 +159,17 @@
 */
 /* DISEÑO DE LA FILA #1 Y LAS COLUMNAS */
 #dacol1{
+    background-color: #F1F9FB;
     border: 1px solid black;
     border-right: none;
 }
 #dacol2{
+    background-color: #F1F9FB;
     border: 1px solid black;
     border-right: none;
 }
 #dacol3{
+    background-color: #F1F9FB;
     border: 1px solid black;
 }
 
@@ -206,23 +224,33 @@
     border-bottom: 1px solid black;
     border-left: 1px solid black;
 }
+#titleacademi1{
+    background-color: #D9F0F6;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
 #subtitleacademi{
+    background-color: #D9F0F6;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
 
 }
+
 #textoacademi{
+    background-color: #F1F9FB;
     border: 1px solid black;
     border-left: none;
     padding: 2px;
 
 }
 #fechacademi{
+ 
     margin-top: 0.5%;
     width: 20%;
     height: 25px;
 }
 #border{
+    background-color: #F1F9FB;
     border-top: 1px solid black;
 }
 /* DISEÑO DE LA FILA #2 DEL CONTENEDOR #2 */
@@ -236,7 +264,7 @@
 
 }
 #arriba{
-    background-color: aqua;
+    background-color: #D9F0F6;
     border: 1px solid black;
 
 }
@@ -298,7 +326,15 @@
 #generalcol{
     border-top: 1px solid black;
 }
-
+#hablantes{
+    background-color: #D9F0F6;
+}
+#general1{
+    border: 1px solid black;
+    background-color: #D9F0F6;
+    border-bottom: none;
+    border-right: none;
+}
 #general{
     border: 1px solid black;
     border-bottom: none;
@@ -306,6 +342,7 @@
 }
 
 #colgeneral{
+    background-color: #D9F0F6;  
     border-top: 1px solid black;
     border-left: 1px solid black;
     padding: 0px 11px;
@@ -320,6 +357,7 @@
 */
 /* ENUNCIADOS DE LA EXPERIENCIA LABORAL */
 #subtitle{
+    background-color: #D9F0F6;
     border: 1px solid black;
     text-align: center;
     border-top: none;
@@ -378,6 +416,15 @@
     border-radius: 15px;
     padding: 0px 11px;
     
+}
+#ocupaciontop{
+    background-color: #D9F0F6;
+}
+#tatime1{
+    background-color: #D9F0F6;
+    border: 1px solid black;
+    border-right: none;
+    border-bottom: none;
 }
 #tatime{
     border: 1px solid black;
@@ -440,4 +487,3 @@
     margin-left: 2%;
 
 }
-
