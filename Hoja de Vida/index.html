@@ -25,6 +25,7 @@
                 <div class="col-lg">
                     <p class="p">ENTIDAD RECEPTORA</p>
                     <input id="boton" type="text">
+                    <img  class="fotomia" src="img/Foto1.png" alt="Recarga para encontrar la foto">
                 </div>
             </div>
         </div>
@@ -39,28 +40,28 @@
         <div class="subcontainer-2">
             <!-- Fila #1 -->
             <div class="row">
-                <div id="dacol1" class="col-md"><p>APELLIDO</p></div>
-                <div id="dacol2" class="col-md"><p>SEGUNDO APELLIDO (O DE CASADA)</p></div>
-                <div id="dacol3" class="col-md"><p>NOMBRES</p></div>
+                <div id="dacol1" class="col-md">APELLIDO <br> Sánchez</div>
+                <div id="dacol2" class="col-md">SEGUNDO APELLIDO (O DE CASADA) <br>  Hernández</div>
+                <div id="dacol3" class="col-md">NOMBRES <br> Michael Santiago</div>
             </div>
             <!-- Fila #2 -->
             <div class="row">
                 <!-- Columna #1 Documentos -->
                 <div id="excol01" class="col-md-6">DOCUMENTO<br>
-                    <input id="mover" type="radio">C.C 
-                    <input id="mover" type="radio">C.E 
-                    <input id="mover" type="radio">PAS 
-                    <input id="pais" type="text" placeholder="Ingresa Documento">
+                    <input id="mover" name="doc" type="radio" checked>C.C 
+                    <input id="mover" name="doc" type="radio">C.E 
+                    <input id="mover" name="doc" type="radio">PAS 
+                    <input id="pais" type="text" placeholder="Ingresa Documento" value="1021395695">
                 </div>
 
                 <div id="excol02" class="col-md-2">SEXO<br>
-                    <input id="mover" type="radio">M 
-                    <input id="mover" type="radio">F
+                    <input id="mover" name="sex" type="radio">M 
+                    <input id="mover" name="sex" type="radio" checked>F
                 </div>
 
                 <div id="excol03" class="col-md-4">NACIONALIDAD<br>
-                    <input id="mover" type="radio">COLOMBIA 
-                    <input id="mover" type="radio">EXTRANJERO 
+                    <input id="mover" name="nacion" type="radio" checked >COLOMBIA 
+                    <input id="mover" name="nacion" type="radio">EXTRANJERO 
                     <input id="pais" type="text" placeholder="Ingres el país">
                 </div>
 
@@ -68,8 +69,8 @@
             <!-- Fila #3 -->
             <div class="row">
                 <div id="excol03" class="col-md">LIBRETA MILITAR<br>
-                    <input id="mover" type="radio">PRIMERA CLASE 
-                    <input id="mover" type="radio">SEGUNDA CLASE 
+                    <input id="mover" name="libreta" type="radio">PRIMERA CLASE 
+                    <input id="mover" name="libreta" type="radio">SEGUNDA CLASE 
                     <input id="ajustes" type="text" placeholder="Numero">
                     <input id="ajustes" type="text" placeholder="D.M">
                 </div>
@@ -78,31 +79,31 @@
             <div class="row">
                 <div id="excol01" class="col-md">FECHA NACIMIENTO<br>
                     DÍA
-                    <input  id="tiempo" type="number" min="1" max="31">
+                    <input  id="tiempo" type="number" min="1" max="31" value="2">
                     MES
-                    <input id="tiempo"type="number" min="1" max="12">
+                    <input id="tiempo"type="number" min="1" max="12" value="11">
                     AÑO
-                    <input id="tiempo" type="number" min="1900" max="2100"><br>
+                    <input id="tiempo" type="number" min="1900" max="2100" value="2005"><br>
                     PAÍS
-                    <input id="ajusancho" type="text"><br>
+                    <input id="ajusancho" type="text" value="Colombia"><br>
                     DEPO
-                    <input id="ajusancho" type="text"><br>
+                    <input id="ajusancho" type="text" value="Guaviare"><br>
                     MUNICIPIO 
-                    <input id="ajusancho" type="text">
+                    <input id="ajusancho" type="text" value="San José Del Guaviare">
                 </div>
 
                 <div id="excol03" class="col-md">DIRECCION DE CORRESPONDENCIA
-                    <input id="ajusancho" type="text"><br>
+                    <input id="ajusancho" type="text" value="Calle 26 #21a 27"><br>
                     PAÍS
-                    <input id="ajusancho" type="text"><br>
+                    <input id="ajusancho" type="text" value="Colombia" ><br>
                     DEPO
-                    <input id="ajusancho" type="text"><br>
+                    <input id="ajusancho" type="text" value="Guaviare"><br>
                     MUNICIPIO 
-                    <input id="ajusancho" type="text"><br>
+                    <input id="ajusancho" type="text" value="San José del Guaviare"><br>
                     TELÉFONO
-                    <input id="ajustes" type="tel">
+                    <input id="ajustes" type="tel" value="3185049904">
                     EMAIL
-                    <input id="ajusancho" type="email">
+                    <input id="ajusancho" type="email" value="Michaelhernan211@gmail.com">
                 </div>
             </div>
         </div>
@@ -125,7 +126,7 @@
                             <!-- Fila #1  Contiene 2 columnas -->
                             <div class="row">
                                 <div id="titleacademi1" class="col-md-7">EDUCACIÓN BÁSICA</div>
-                                <div id="titleacademi" class="col-md-5">TÍTULO OBTENIDO:</div>
+                                <div id="titleacademi" class="col-md-5">TÍTULO OBTENIDO: BACHILLER</div>
                             </div>
                             <div class="row">
                                 <!-- Fila #2 Contine 4 columnas -->
@@ -149,15 +150,15 @@
                                 <div id="subtitleacademi" class="col-md-2">MEDIA
                                     <div class="row">
                                         <div id="textoacademi" class="col-sm-6">10°</div>
-                                        <div id="textoacademi" class="col-sm-6">11°</div>
+                                        <div id="textoacademi" class="col-sm-6">11°X</div>
                                     </div>
                                 </div>
                                 <div id="subtitleacademi" class="col-md-5">FECHA DE GRADO
                                     <div id="border" class="row">
                                             MES
-                                            <input id="fechacademi" type="number" min="1" max="12">
+                                            <input id="fechacademi" type="number" min="1" max="12" value="11">
                                             AÑO
-                                            <input id="fechacademi" type="number" min="1900" max="2100">
+                                            <input id="fechacademi" type="number" min="1900" max="2100" value="2022">
                                     </div>
                                 </div>
                             </div>
@@ -203,30 +204,30 @@
                         </div>
                         <div id="lineaT2" class="row">
                             <div id="nova" class="col-lg-2">
-                                <div></div>
+                                <div>TC</div>
                             </div>
                             <div id="nova" class="col-lg-2">
-                                <div></div>
+                                <div>4</div>
                             </div>
                             <div id="nova" class="col-lg-1 GRADUADO">
                                 <p style="display: flex; margin: 0;"></p>
                                 <div style="display: flex;">
-                                    <div id="eleccion" class="col-6 SI" style="padding: 10px; margin: 0;"><span style="color: white;">SI</span><h1></h1></div>
+                                    <div id="eleccion" class="col-6 SI" style="padding: 10px; margin: 0;"><span style="color: white;">SI</span>X</div>
                                     <div id="eleccion" class="col-6 NO" style="padding: 10px; margin: 0;"></div>
                                 </div>
                             </div>
                             <div id="nova" class="col-lg-3">
-                                <div></div>
+                                <div>Técnico en sistemas</div>
                             </div>
                             <div id="nova" class="col-lg-2 terminacion">
                                 <p style="display: flex; margin: 0;"></p>
                                 <div style="display: flex;">
-                                    <div id="eleccion" class="col-6 MES" style="padding: 10px; margin: 0;width: auto;"><span style="color: white;">MES</span></div>
-                                    <div id="eleccion" class="col-6 AÑOS" style="padding: 10px; margin: 0;"></div>
+                                    <div id="eleccion" class="col-6 MES" style="padding: 10px; margin: 0;width: auto;"><span style="color: white;">MES</span>11</div>
+                                    <div id="eleccion" class="col-6 AÑOS" style="padding: 10px; margin: 0;">2022</div>
                                 </div>
                             </div>
                             <div id="nova" class="col-lg-2">
-                                <div></div>
+                                <div>Na</div>
                             </div>                          
                         </div>
                         <div id="lineaT3" class="row">
@@ -354,11 +355,11 @@
                         <!-- Fila #2 -->
                         <div class="row">
                             <!-- Esta es la primera columna no se modifica -->
-                            <div id="generalcol" class="col-md-6">Español</div>
+                            <div id="generalcol" class="col-md-6">Ingles</div>
                             <!-- Se crea una Fila dentro de la columna #1 para ingresar los datos -->
                             <div class="col-md-2">
                                 <div class="row">
-                                    <div id="general" class="col-sm-4"><br></div>
+                                    <div id="general" class="col-sm-4">X<br></div>
                                     <div id="general" class="col-sm-4"><br></div>
                                     <div id="general" class="col-sm-4"><br></div>
                                 </div>
@@ -366,7 +367,7 @@
                             <!-- Se crea una Fila dentro de la columna #2 para ingresar los datos -->
                             <div class="col-md-2">
                                 <div class="row">
-                                    <div id="general" class="col-sm-4"><br></div>
+                                    <div id="general" class="col-sm-4">X<br></div>
                                     <div id="general" class="col-sm-4"><br></div>
                                     <div id="general" class="col-sm-4"><br></div>
                                 </div>
@@ -374,7 +375,7 @@
                             <!-- Se crea una Fila dentro de la columna #3 para ingresar los datos -->
                             <div class="col-md-2">
                                 <div class="row">
-                                    <div id="general" class="col-sm-4"><br></div>
+                                    <div id="general" class="col-sm-4">X<br></div>
                                     <div id="general" class="col-sm-4"><br></div>
                                     <div id="general" class="col-sm-4"><br></div>
                                 </div>
@@ -383,7 +384,7 @@
                         <!-- Fila #3 -->
                         <div class="row">
                             <!-- Esta es la primera columna no se modifica -->
-                            <div id="generalcol" class="col-md-6">Ingles</div>
+                            <div id="generalcol" class="col-md-6"></div>
                             <!-- Se crea una Fila dentro de la columna #1 para ingresar los datos -->
                             <div class="col-md-2">
                                 <div class="row">
@@ -448,44 +449,44 @@
             <!-- Fila #3 -->
             <!-- ENTIDADES -->
             <div class="row">
-                <div id="excol1" class="col-md-5">EMPRESA O ENTIDAD</div>
-                <div id="excol2" class="col-md-2"><p>PÚBLICA</p><br></div>
+                <div id="excol1" class="col-md-5">EMPRESA O ENTIDAD <br> Gobernación</div>
+                <div id="excol2" class="col-md-2">PÚBLICA <br> X</div>
                 <div id="excol3" class="col-md-2">PRIVADA</div>
-                <div id="excol4" class="col-md-3">PAÍS</div>
+                <div id="excol4" class="col-md-3">PAÍS <br> Colombia</div>
             </div>
             <!-- Fila #4 -->
             <!-- DEPARTAMENTOS -->
             <div class="row">
-                <div id="excol01" class="col-md">DEPARTAMENTO</div>
-                <div id="excol02" class="col-md"><p>MUNICIPIO</p><br></div>
-                <div id="excol03" class="col-md">CORREO ELECTRONICO ENTIDAD</div>
+                <div id="excol01" class="col-md">DEPARTAMENTO <br> Guaviare</div>
+                <div id="excol02" class="col-md">MUNICIPIO <br> San José Del Guaviare</div>
+                <div id="excol03" class="col-md">CORREO ELECTRONICO ENTIDAD <br> gobernacion@guaviare.gov.co </div>
             </div>
             <!-- Fila #5 -->
             <!-- FECHAS -->
             <div class="row">
-                <div id="excol01" class="col-md">TELÉFONOS</div>
+                <div id="excol01" class="col-md">TELÉFONOS <br> 312 3690544</div>
                 <div id="excol02" class="col-md">FECHA INGRESO <br>
                     DÍA
-                    <input  id="tiempo" type="number" min="1" max="31">
+                    <input  id="tiempo" type="number" min="1" max="31" value="1">
                     MES
-                    <input id="tiempo"type="number" min="1" max="12">
+                    <input id="tiempo"type="number" min="1" max="12" value="3">
                     AÑO
-                    <input id="tiempo" type="number" min="1900" max="2100"><br>
+                    <input id="tiempo" type="number" min="1900" max="2100" value="2023"><br>
                 </div>
                 <div id="excol03" class="col-md">FECHA DE RETIRO <br>
                     DÍA
-                    <input  id="tiempo" type="number" min="1" max="31">
+                    <input  id="tiempo" type="number" min="1" max="31" value="1">
                     MES
-                    <input id="tiempo"type="number" min="1" max="12">
+                    <input id="tiempo"type="number" min="1" max="12" value="5">
                     AÑO
-                    <input id="tiempo" type="number" min="1900" max="2100"><br>
+                    <input id="tiempo" type="number" min="1900" max="2100" value="2024"><br>
                 </div>
             </div>
             <!-- Fila #6 -->
             <div class="row">
-                <div id="excol01" class="col-md">CARGO O CONTRATO ACTUAL</div>
+                <div id="excol01" class="col-md">CARGO O CONTRATO ACTUAL <br> Programador</div>
                 <div id="excol02" class="col-md"><p>DEPENDENCIA</p><br></div>
-                <div id="excol03" class="col-md">DIRECCIÓN</div>
+                <div id="excol03" class="col-md">DIRECCIÓN <br> Carrera 24 No. 7 – 81 centro</div>
             </div>
             <!-- Fila #7 -->
             <div class="row">
@@ -653,8 +654,8 @@
                 <!-- FILA #3 CONTINE 3 COLUMNAS -->
                 <div class="row">
                     <div id="tatime01" class="col-md-8"><p>SERVIDOR PÚBLICO</p></div>
-                    <div id="tatime" class="col-md-2"><br></div>
-                    <div id="tatime" class="col-md-2"><br></div>
+                    <div id="tatime" class="col-md-2"><br>1</div>
+                    <div id="tatime" class="col-md-2"><br>2</div>
                 </div>
                 <!-- FILA #4 CONTINE 3 COLUMNAS -->
                 <div class="row">
@@ -671,8 +672,8 @@
                 <!-- FILA #6 CONTINE 3 COLUMNAS -->
                 <div class="row">
                     <div id="tatime01" class="col-md-8"><p><b>TOTAL TIEMPO EXPERIENCIA</b></p></div>
-                    <div id="tatime" class="col-md-2"><br></div>
-                    <div id="tatime" class="col-md-2"><br></div>
+                    <div id="tatime" class="col-md-2"><br>1</div>
+                    <div id="tatime" class="col-md-2"><br>2</div>
                 </div>
             </div>
         </div>
@@ -685,7 +686,7 @@
 
         <!-- Firma  -->
         <div class="subcontainer-6">
-            <p class="texfir" >MANIFIESTO BAJO LA GRAVEDAD DEL JURAMENTO QUE SI <input  name="si" type="radio"> NO <input name="si" type="radio"> ME ENCUENTRO DENTRO DE LAS CAUSALES DE INHABILIDAD E INCOMPATIBILIDAD DEL 
+            <p class="texfir" >MANIFIESTO BAJO LA GRAVEDAD DEL JURAMENTO QUE SI <input  name="si" type="radio" checked> NO <input name="si" type="radio"> ME ENCUENTRO DENTRO DE LAS CAUSALES DE INHABILIDAD E INCOMPATIBILIDAD DEL 
                 ORDEN CONSTITUCIONAL O LEGAL, PARA EJERCER CARGOS EMPLEOS PÚBLICOS O PARA CELEBRAR CONTRATOS 
                 DE PRESTACIÓN DE SERVICIOS CON LA ADMINISTRACIÓN PÚBLICA.</p>
             <p class="texfir" >PARA TODOS LOS EFECTOS LEGALES, CERTIFICO QUE LOS DATOS POR MI ANOTADOS EN EL PRESENTE FORMATO ÚNICO DE HOJA DE VIDA, SON
@@ -706,11 +707,13 @@
         <div class="subcontainer-md-7">
             <textarea id="comentario" name="comentario" rows="4" required></textarea><br>
             <span>CERTIFICO QUE LA INFORMACIÓN AQUÍ SUMINISTRADA HA SIDO CONSTATADA FRENTE A LOS DOCUMENTOS QUE HAN SIDO PRESENTADOS COMO SOPORTE.</span><br><br>
-            <textarea id="firma" name="firma" rows="1" required></textarea>
-            <textarea id="firma" name="firma" rows="1" required></textarea><br>
+                <textarea id="firma" name="firma" rows="1" required></textarea>
+                <textarea id="firma" name="firma" rows="1" required></textarea><br>
             <p class="moverTexto1" >CUIDAD Y FECHA</p> <p class="moverTexto" >NOMBRE Y FIRMA DEL JEFE DE PERSONAL O DE CONTRATOS</p>     
         </div>
         <b>LINEA GRATUITA NACIONAL 01800917770 PÁGINA WEB: www.funcionpublica.gov.co</b>
+
+    
         
     </div>
 

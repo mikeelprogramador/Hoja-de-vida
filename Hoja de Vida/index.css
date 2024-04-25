@@ -122,6 +122,12 @@ textarea{
     position: relative;
     top: 10px; 
 }
+.fotomia{
+    width: 100px;
+    margin-bottom: 2%;
+    margin-left: 20%;
+
+}
 
 /*
 *AJUSTES DE LAS ETIQUETAS 
@@ -130,6 +136,7 @@ textarea{
 .etiqueta{
     display: flex;
     margin-top: 2%;
+
 }
 /* TAMAÑO Y DISEÑO DEL NUMERO DE LA ETIQUETA */
 .number{
